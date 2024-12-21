@@ -8,8 +8,15 @@
 #include <QtWidgets/QApplication>
 #include "tests.h"
 
+#include <QApplication>
+#include "MainWindow.h"
 
 int main(int argc, char *argv[])
 {
-    testInsertAndSearch();
+    QApplication a(argc, argv);
+    MainWindow w;
+    w.setWindowTitle("Выбор задачи");
+    w.resize(500, 400); // Установка размера окна
+    w.show();
+    return a.exec();
 }

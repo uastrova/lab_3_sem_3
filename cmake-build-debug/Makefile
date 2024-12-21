@@ -141,6 +141,78 @@ lab3_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3_autogen.dir\build.make CMakeFiles/lab3_autogen.dir/build
 .PHONY : lab3_autogen/fast
 
+InputSequenceWindow.obj: InputSequenceWindow.cpp.obj
+.PHONY : InputSequenceWindow.obj
+
+# target to build an object file
+InputSequenceWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/InputSequenceWindow.cpp.obj
+.PHONY : InputSequenceWindow.cpp.obj
+
+InputSequenceWindow.i: InputSequenceWindow.cpp.i
+.PHONY : InputSequenceWindow.i
+
+# target to preprocess a source file
+InputSequenceWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/InputSequenceWindow.cpp.i
+.PHONY : InputSequenceWindow.cpp.i
+
+InputSequenceWindow.s: InputSequenceWindow.cpp.s
+.PHONY : InputSequenceWindow.s
+
+# target to generate assembly for a file
+InputSequenceWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/InputSequenceWindow.cpp.s
+.PHONY : InputSequenceWindow.cpp.s
+
+MainWindow.obj: MainWindow.cpp.obj
+.PHONY : MainWindow.obj
+
+# target to build an object file
+MainWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/MainWindow.cpp.obj
+.PHONY : MainWindow.cpp.obj
+
+MainWindow.i: MainWindow.cpp.i
+.PHONY : MainWindow.i
+
+# target to preprocess a source file
+MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/MainWindow.cpp.i
+.PHONY : MainWindow.cpp.i
+
+MainWindow.s: MainWindow.cpp.s
+.PHONY : MainWindow.s
+
+# target to generate assembly for a file
+MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/MainWindow.cpp.s
+.PHONY : MainWindow.cpp.s
+
+SubsequenceWindow.obj: SubsequenceWindow.cpp.obj
+.PHONY : SubsequenceWindow.obj
+
+# target to build an object file
+SubsequenceWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/SubsequenceWindow.cpp.obj
+.PHONY : SubsequenceWindow.cpp.obj
+
+SubsequenceWindow.i: SubsequenceWindow.cpp.i
+.PHONY : SubsequenceWindow.i
+
+# target to preprocess a source file
+SubsequenceWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/SubsequenceWindow.cpp.i
+.PHONY : SubsequenceWindow.cpp.i
+
+SubsequenceWindow.s: SubsequenceWindow.cpp.s
+.PHONY : SubsequenceWindow.s
+
+# target to generate assembly for a file
+SubsequenceWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/SubsequenceWindow.cpp.s
+.PHONY : SubsequenceWindow.cpp.s
+
 lab3_autogen/mocs_compilation.obj: lab3_autogen/mocs_compilation.cpp.obj
 .PHONY : lab3_autogen/mocs_compilation.obj
 
@@ -199,6 +271,15 @@ help:
 	@echo ... rebuild_cache
 	@echo ... lab3_autogen
 	@echo ... lab3
+	@echo ... InputSequenceWindow.obj
+	@echo ... InputSequenceWindow.i
+	@echo ... InputSequenceWindow.s
+	@echo ... MainWindow.obj
+	@echo ... MainWindow.i
+	@echo ... MainWindow.s
+	@echo ... SubsequenceWindow.obj
+	@echo ... SubsequenceWindow.i
+	@echo ... SubsequenceWindow.s
 	@echo ... lab3_autogen/mocs_compilation.obj
 	@echo ... lab3_autogen/mocs_compilation.i
 	@echo ... lab3_autogen/mocs_compilation.s

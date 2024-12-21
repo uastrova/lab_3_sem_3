@@ -145,7 +145,19 @@
 		<Unit filename="C:/c++Programs/lab_3_sem_3/HashTable.h">
 			<Option target="lab3"/>
 		</Unit>
+		<Unit filename="C:/c++Programs/lab_3_sem_3/InputSequenceWindow.cpp">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="C:/c++Programs/lab_3_sem_3/InputSequenceWindow.h">
+			<Option target="lab3"/>
+		</Unit>
 		<Unit filename="C:/c++Programs/lab_3_sem_3/KnapSackProblem.h">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="C:/c++Programs/lab_3_sem_3/MainWindow.cpp">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="C:/c++Programs/lab_3_sem_3/MainWindow.h">
 			<Option target="lab3"/>
 		</Unit>
 		<Unit filename="C:/c++Programs/lab_3_sem_3/MostFrequent.h">
@@ -161,6 +173,12 @@
 			<Option target="lab3"/>
 		</Unit>
 		<Unit filename="C:/c++Programs/lab_3_sem_3/Sequence.h">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="C:/c++Programs/lab_3_sem_3/SubsequenceWindow.cpp">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="C:/c++Programs/lab_3_sem_3/SubsequenceWindow.h">
 			<Option target="lab3"/>
 		</Unit>
 		<Unit filename="C:/c++Programs/lab_3_sem_3/cmake-build-debug/lab3_autogen/mocs_compilation.cpp">

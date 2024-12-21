@@ -398,8 +398,6 @@ void testFrequentSubsequences(int count, int lmin, int lmax)
         int expectedCount = entry.second;            // Ожидаемое количество
 
         // Пропускаем пустую строку
-
-
         if (subsequence.empty()) {
             //std::cerr << "Ошибка: Обнаружена пустая подстрока в словаре. Пропускаем проверку.\n";
             continue;

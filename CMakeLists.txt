@@ -28,6 +28,13 @@ qt_add_executable(lab3
         MostFrequent.h
         Pages.h
         tests.h
+        MainWindow.h
+        MainWindow.h
+        MainWindow.cpp
+        SubsequenceWindow.cpp
+        SubsequenceWindow.h
+        InputSequenceWindow.cpp
+        InputSequenceWindow.h
 )
 
 target_link_libraries(lab3 PRIVATE Qt6::Core Qt6::Widgets)

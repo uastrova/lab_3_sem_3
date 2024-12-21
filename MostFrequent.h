@@ -8,7 +8,7 @@
 #include "Dictionary.h"
 #include <fstream>
 
-Dictionary<std::string, int> theMostFrequentSubsequences(const std::string &input, int lmin, int lmax) {
+inline Dictionary<std::string, int> theMostFrequentSubsequences(const std::string &input, int lmin, int lmax) {
     Dictionary<std::string, int> result;
 
     for (int i = 0; i < input.length(); i++) {
@@ -27,10 +27,10 @@ Dictionary<std::string, int> theMostFrequentSubsequences(const std::string &inpu
     return result;
 }
 
-void FindingTheMostFrequentSubsequence(std::string input, int lmin, int lmax)
+inline void FindingTheMostFrequentSubsequence(std::string input, int lmin, int lmax)
 {
     Dictionary<std::string, int> result = theMostFrequentSubsequences(input, lmin, lmax);
-    std::string outputFilePath = "/Users/vitalijkoldasev/Desktop/laboratories_3_sem/laboratory3/laboratory3/outputSequences.txt";
+    std::string outputFilePath = "C:/c++Programs/lab_3_sem_3/outputSequences.txt";
     // Открытие файла для записи
     std::ofstream outputFile(outputFilePath);
     if (!outputFile) {

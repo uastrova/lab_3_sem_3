@@ -315,9 +315,21 @@
 			null
 		],
 		[
+			"C:/c++Programs/lab_3_sem_3/InputSequenceWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_InputSequenceWindow.cpp",
+			null
+		],
+		[
 			"C:/c++Programs/lab_3_sem_3/KnapSackProblem.h",
 			"MU",
 			"EWIEGA46WW/moc_KnapSackProblem.cpp",
+			null
+		],
+		[
+			"C:/c++Programs/lab_3_sem_3/MainWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_MainWindow.cpp",
 			null
 		],
 		[
@@ -348,6 +360,12 @@
 			"C:/c++Programs/lab_3_sem_3/Sequence.h",
 			"MU",
 			"EWIEGA46WW/moc_Sequence.cpp",
+			null
+		],
+		[
+			"C:/c++Programs/lab_3_sem_3/SubsequenceWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_SubsequenceWindow.cpp",
 			null
 		],
 		[
@@ -440,6 +458,9 @@
 	"SETTINGS_FILE" : "C:/c++Programs/lab_3_sem_3/cmake-build-debug/CMakeFiles/lab3_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/c++Programs/lab_3_sem_3/InputSequenceWindow.cpp", "MU", null ],
+		[ "C:/c++Programs/lab_3_sem_3/MainWindow.cpp", "MU", null ],
+		[ "C:/c++Programs/lab_3_sem_3/SubsequenceWindow.cpp", "MU", null ],
 		[ "C:/c++Programs/lab_3_sem_3/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
