@@ -8,7 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/c++Programs/lab_3_sem_3/GenerateSequenceWindow.cpp" "CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.obj" "gcc" "CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.obj.d"
   "C:/c++Programs/lab_3_sem_3/InputSequenceWindow.cpp" "CMakeFiles/lab3.dir/InputSequenceWindow.cpp.obj" "gcc" "CMakeFiles/lab3.dir/InputSequenceWindow.cpp.obj.d"
+  "C:/c++Programs/lab_3_sem_3/KnapsackItemsWindow.cpp" "CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.obj" "gcc" "CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.obj.d"
+  "C:/c++Programs/lab_3_sem_3/KnapsackParametersWindow.cpp" "CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.obj" "gcc" "CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.obj.d"
   "C:/c++Programs/lab_3_sem_3/MainWindow.cpp" "CMakeFiles/lab3.dir/MainWindow.cpp.obj" "gcc" "CMakeFiles/lab3.dir/MainWindow.cpp.obj.d"
   "C:/c++Programs/lab_3_sem_3/SubsequenceWindow.cpp" "CMakeFiles/lab3.dir/SubsequenceWindow.cpp.obj" "gcc" "CMakeFiles/lab3.dir/SubsequenceWindow.cpp.obj.d"
   "C:/c++Programs/lab_3_sem_3/cmake-build-debug/lab3_autogen/mocs_compilation.cpp" "CMakeFiles/lab3.dir/lab3_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/lab3.dir/lab3_autogen/mocs_compilation.cpp.obj.d"

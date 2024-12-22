@@ -143,13 +143,61 @@ CMakeFiles/lab3.dir/InputSequenceWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/InputSequenceWindow.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\c++Programs\lab_3_sem_3\InputSequenceWindow.cpp -o CMakeFiles\lab3.dir\InputSequenceWindow.cpp.s
 
+CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.obj: CMakeFiles/lab3.dir/flags.make
+CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.obj: CMakeFiles/lab3.dir/includes_CXX.rsp
+CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.obj: C:/c++Programs/lab_3_sem_3/GenerateSequenceWindow.cpp
+CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.obj: CMakeFiles/lab3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++Programs\lab_3_sem_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.obj -MF CMakeFiles\lab3.dir\GenerateSequenceWindow.cpp.obj.d -o CMakeFiles\lab3.dir\GenerateSequenceWindow.cpp.obj -c C:\c++Programs\lab_3_sem_3\GenerateSequenceWindow.cpp
+
+CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\c++Programs\lab_3_sem_3\GenerateSequenceWindow.cpp > CMakeFiles\lab3.dir\GenerateSequenceWindow.cpp.i
+
+CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\c++Programs\lab_3_sem_3\GenerateSequenceWindow.cpp -o CMakeFiles\lab3.dir\GenerateSequenceWindow.cpp.s
+
+CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.obj: CMakeFiles/lab3.dir/flags.make
+CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.obj: CMakeFiles/lab3.dir/includes_CXX.rsp
+CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.obj: C:/c++Programs/lab_3_sem_3/KnapsackParametersWindow.cpp
+CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.obj: CMakeFiles/lab3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++Programs\lab_3_sem_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.obj -MF CMakeFiles\lab3.dir\KnapsackParametersWindow.cpp.obj.d -o CMakeFiles\lab3.dir\KnapsackParametersWindow.cpp.obj -c C:\c++Programs\lab_3_sem_3\KnapsackParametersWindow.cpp
+
+CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\c++Programs\lab_3_sem_3\KnapsackParametersWindow.cpp > CMakeFiles\lab3.dir\KnapsackParametersWindow.cpp.i
+
+CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\c++Programs\lab_3_sem_3\KnapsackParametersWindow.cpp -o CMakeFiles\lab3.dir\KnapsackParametersWindow.cpp.s
+
+CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.obj: CMakeFiles/lab3.dir/flags.make
+CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.obj: CMakeFiles/lab3.dir/includes_CXX.rsp
+CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.obj: C:/c++Programs/lab_3_sem_3/KnapsackItemsWindow.cpp
+CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.obj: CMakeFiles/lab3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++Programs\lab_3_sem_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.obj -MF CMakeFiles\lab3.dir\KnapsackItemsWindow.cpp.obj.d -o CMakeFiles\lab3.dir\KnapsackItemsWindow.cpp.obj -c C:\c++Programs\lab_3_sem_3\KnapsackItemsWindow.cpp
+
+CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\c++Programs\lab_3_sem_3\KnapsackItemsWindow.cpp > CMakeFiles\lab3.dir\KnapsackItemsWindow.cpp.i
+
+CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\c++Programs\lab_3_sem_3\KnapsackItemsWindow.cpp -o CMakeFiles\lab3.dir\KnapsackItemsWindow.cpp.s
+
 # Object files for target lab3
 lab3_OBJECTS = \
 "CMakeFiles/lab3.dir/lab3_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/lab3.dir/main.cpp.obj" \
 "CMakeFiles/lab3.dir/MainWindow.cpp.obj" \
 "CMakeFiles/lab3.dir/SubsequenceWindow.cpp.obj" \
-"CMakeFiles/lab3.dir/InputSequenceWindow.cpp.obj"
+"CMakeFiles/lab3.dir/InputSequenceWindow.cpp.obj" \
+"CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.obj" \
+"CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.obj" \
+"CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.obj"
 
 # External object files for target lab3
 lab3_EXTERNAL_OBJECTS =
@@ -159,6 +207,9 @@ lab3.exe: CMakeFiles/lab3.dir/main.cpp.obj
 lab3.exe: CMakeFiles/lab3.dir/MainWindow.cpp.obj
 lab3.exe: CMakeFiles/lab3.dir/SubsequenceWindow.cpp.obj
 lab3.exe: CMakeFiles/lab3.dir/InputSequenceWindow.cpp.obj
+lab3.exe: CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.obj
+lab3.exe: CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.obj
+lab3.exe: CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.obj
 lab3.exe: CMakeFiles/lab3.dir/build.make
 lab3.exe: C:/Mingw64/mingw64/lib/libQt6Widgets.a
 lab3.exe: C:/Mingw64/mingw64/lib/libQt6Gui.a
@@ -166,7 +217,7 @@ lab3.exe: C:/Mingw64/mingw64/lib/libQt6Core.a
 lab3.exe: CMakeFiles/lab3.dir/linkLibs.rsp
 lab3.exe: CMakeFiles/lab3.dir/objects1.rsp
 lab3.exe: CMakeFiles/lab3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\c++Programs\lab_3_sem_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable lab3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\c++Programs\lab_3_sem_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable lab3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

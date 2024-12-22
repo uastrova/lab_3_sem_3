@@ -303,6 +303,12 @@
 			null
 		],
 		[
+			"C:/c++Programs/lab_3_sem_3/GenerateSequenceWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_GenerateSequenceWindow.cpp",
+			null
+		],
+		[
 			"C:/c++Programs/lab_3_sem_3/Generator.h",
 			"MU",
 			"EWIEGA46WW/moc_Generator.cpp",
@@ -324,6 +330,18 @@
 			"C:/c++Programs/lab_3_sem_3/KnapSackProblem.h",
 			"MU",
 			"EWIEGA46WW/moc_KnapSackProblem.cpp",
+			null
+		],
+		[
+			"C:/c++Programs/lab_3_sem_3/KnapsackItemsWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_KnapsackItemsWindow.cpp",
+			null
+		],
+		[
+			"C:/c++Programs/lab_3_sem_3/KnapsackParametersWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_KnapsackParametersWindow.cpp",
 			null
 		],
 		[
@@ -458,7 +476,10 @@
 	"SETTINGS_FILE" : "C:/c++Programs/lab_3_sem_3/cmake-build-debug/CMakeFiles/lab3_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/c++Programs/lab_3_sem_3/GenerateSequenceWindow.cpp", "MU", null ],
 		[ "C:/c++Programs/lab_3_sem_3/InputSequenceWindow.cpp", "MU", null ],
+		[ "C:/c++Programs/lab_3_sem_3/KnapsackItemsWindow.cpp", "MU", null ],
+		[ "C:/c++Programs/lab_3_sem_3/KnapsackParametersWindow.cpp", "MU", null ],
 		[ "C:/c++Programs/lab_3_sem_3/MainWindow.cpp", "MU", null ],
 		[ "C:/c++Programs/lab_3_sem_3/SubsequenceWindow.cpp", "MU", null ],
 		[ "C:/c++Programs/lab_3_sem_3/main.cpp", "MU", null ]

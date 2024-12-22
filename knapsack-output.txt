@@ -1,0 +1,6 @@
+Max Value: 129
+Total Weight: 34
+Items in the knapsack:
+Item 1 (Weight: 4, Value: 34)
+Item 2 (Weight: 10, Value: 35)
+Item 3 (Weight: 20, Value: 60)

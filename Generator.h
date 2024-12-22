@@ -8,9 +8,9 @@
 #include <ctime>
 #include <random>
 
-std::string helpful_array = "abcdefghijklmnopqrstuvwxyz";
+inline std::string helpful_array = "abcdefghijklmnopqrstuvwxyz";
 
-std::string GenerateSequence(int count)
+inline std::string GenerateSequence(int count)
 {
     std::string result = "";
     std::mt19937 generator(static_cast<unsigned int>(std::time(nullptr)));

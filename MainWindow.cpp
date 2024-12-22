@@ -4,6 +4,7 @@
 
 #include "MainWindow.h"
 #include "SubsequenceWindow.h" // Подключаем новый класс
+#include "KnapsackParametersWindow.h"
 #include <QApplication>
 
 MainWindow::MainWindow(QWidget *parent)
@@ -49,9 +50,8 @@ void MainWindow::onKnapsackButtonClicked()
     // Закрытие текущего окна
     this->close();
 
-    // Здесь можно добавить код для обработки нажатия кнопки "Проблема рюкзака"
-    // Например, открытие нового окна для проблемы рюкзака
-    // KnapsackWindow *knapsackWindow = new KnapsackWindow();
-    // knapsackWindow->setAttribute(Qt::WA_DeleteOnClose);
-    // knapsackWindow->show();
+    // Открытие окна для ввода параметров рюкзака
+    KnapsackParametersWindow *knapsackParamsWindow = new KnapsackParametersWindow();
+    knapsackParamsWindow->setAttribute(Qt::WA_DeleteOnClose); // Удалить окно при закрытии
+    knapsackParamsWindow->show(); // Показать новое окно
 }

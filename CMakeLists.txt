@@ -35,6 +35,12 @@ qt_add_executable(lab3
         SubsequenceWindow.h
         InputSequenceWindow.cpp
         InputSequenceWindow.h
+        GenerateSequenceWindow.cpp
+        GenerateSequenceWindow.h
+        KnapsackParametersWindow.cpp
+        KnapsackParametersWindow.h
+        KnapsackItemsWindow.cpp
+        KnapsackItemsWindow.h
 )
 
 target_link_libraries(lab3 PRIVATE Qt6::Core Qt6::Widgets)

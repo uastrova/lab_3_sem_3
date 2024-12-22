@@ -123,8 +123,8 @@ public:
     }
 };
 
-int KnapsackProblemSolving(const std::vector<Item>& items, int capacity) {
-    std::string outputFilePath = "/Users/vitalijkoldasev/Desktop/laboratories_3_sem/laboratory3/laboratory3/knapsack-output.txt";
+inline int KnapsackProblemSolving(const std::vector<Item>& items, int capacity) {
+    std::string outputFilePath = "C://c++Programs//lab_3_sem_3//knapsack-output.txt";
     KnapsackSolver solver(capacity, items);
     int maxValue = solver.solve();
     solver.writeResultToFile(outputFilePath); // Записываем результат в файл

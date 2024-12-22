@@ -141,6 +141,30 @@ lab3_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3_autogen.dir\build.make CMakeFiles/lab3_autogen.dir/build
 .PHONY : lab3_autogen/fast
 
+GenerateSequenceWindow.obj: GenerateSequenceWindow.cpp.obj
+.PHONY : GenerateSequenceWindow.obj
+
+# target to build an object file
+GenerateSequenceWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.obj
+.PHONY : GenerateSequenceWindow.cpp.obj
+
+GenerateSequenceWindow.i: GenerateSequenceWindow.cpp.i
+.PHONY : GenerateSequenceWindow.i
+
+# target to preprocess a source file
+GenerateSequenceWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.i
+.PHONY : GenerateSequenceWindow.cpp.i
+
+GenerateSequenceWindow.s: GenerateSequenceWindow.cpp.s
+.PHONY : GenerateSequenceWindow.s
+
+# target to generate assembly for a file
+GenerateSequenceWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.s
+.PHONY : GenerateSequenceWindow.cpp.s
+
 InputSequenceWindow.obj: InputSequenceWindow.cpp.obj
 .PHONY : InputSequenceWindow.obj
 
@@ -164,6 +188,54 @@ InputSequenceWindow.s: InputSequenceWindow.cpp.s
 InputSequenceWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/InputSequenceWindow.cpp.s
 .PHONY : InputSequenceWindow.cpp.s
+
+KnapsackItemsWindow.obj: KnapsackItemsWindow.cpp.obj
+.PHONY : KnapsackItemsWindow.obj
+
+# target to build an object file
+KnapsackItemsWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.obj
+.PHONY : KnapsackItemsWindow.cpp.obj
+
+KnapsackItemsWindow.i: KnapsackItemsWindow.cpp.i
+.PHONY : KnapsackItemsWindow.i
+
+# target to preprocess a source file
+KnapsackItemsWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.i
+.PHONY : KnapsackItemsWindow.cpp.i
+
+KnapsackItemsWindow.s: KnapsackItemsWindow.cpp.s
+.PHONY : KnapsackItemsWindow.s
+
+# target to generate assembly for a file
+KnapsackItemsWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.s
+.PHONY : KnapsackItemsWindow.cpp.s
+
+KnapsackParametersWindow.obj: KnapsackParametersWindow.cpp.obj
+.PHONY : KnapsackParametersWindow.obj
+
+# target to build an object file
+KnapsackParametersWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.obj
+.PHONY : KnapsackParametersWindow.cpp.obj
+
+KnapsackParametersWindow.i: KnapsackParametersWindow.cpp.i
+.PHONY : KnapsackParametersWindow.i
+
+# target to preprocess a source file
+KnapsackParametersWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.i
+.PHONY : KnapsackParametersWindow.cpp.i
+
+KnapsackParametersWindow.s: KnapsackParametersWindow.cpp.s
+.PHONY : KnapsackParametersWindow.s
+
+# target to generate assembly for a file
+KnapsackParametersWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/KnapsackParametersWindow.cpp.s
+.PHONY : KnapsackParametersWindow.cpp.s
 
 MainWindow.obj: MainWindow.cpp.obj
 .PHONY : MainWindow.obj
@@ -271,9 +343,18 @@ help:
 	@echo ... rebuild_cache
 	@echo ... lab3_autogen
 	@echo ... lab3
+	@echo ... GenerateSequenceWindow.obj
+	@echo ... GenerateSequenceWindow.i
+	@echo ... GenerateSequenceWindow.s
 	@echo ... InputSequenceWindow.obj
 	@echo ... InputSequenceWindow.i
 	@echo ... InputSequenceWindow.s
+	@echo ... KnapsackItemsWindow.obj
+	@echo ... KnapsackItemsWindow.i
+	@echo ... KnapsackItemsWindow.s
+	@echo ... KnapsackParametersWindow.obj
+	@echo ... KnapsackParametersWindow.i
+	@echo ... KnapsackParametersWindow.s
 	@echo ... MainWindow.obj
 	@echo ... MainWindow.i
 	@echo ... MainWindow.s

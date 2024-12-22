@@ -139,6 +139,12 @@
 		<Unit filename="C:/c++Programs/lab_3_sem_3/Dictionary.h">
 			<Option target="lab3"/>
 		</Unit>
+		<Unit filename="C:/c++Programs/lab_3_sem_3/GenerateSequenceWindow.cpp">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="C:/c++Programs/lab_3_sem_3/GenerateSequenceWindow.h">
+			<Option target="lab3"/>
+		</Unit>
 		<Unit filename="C:/c++Programs/lab_3_sem_3/Generator.h">
 			<Option target="lab3"/>
 		</Unit>
@@ -152,6 +158,18 @@
 			<Option target="lab3"/>
 		</Unit>
 		<Unit filename="C:/c++Programs/lab_3_sem_3/KnapSackProblem.h">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="C:/c++Programs/lab_3_sem_3/KnapsackItemsWindow.cpp">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="C:/c++Programs/lab_3_sem_3/KnapsackItemsWindow.h">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="C:/c++Programs/lab_3_sem_3/KnapsackParametersWindow.cpp">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="C:/c++Programs/lab_3_sem_3/KnapsackParametersWindow.h">
 			<Option target="lab3"/>
 		</Unit>
 		<Unit filename="C:/c++Programs/lab_3_sem_3/MainWindow.cpp">

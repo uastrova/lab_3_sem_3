@@ -4,6 +4,7 @@
 
 #include "SubsequenceWindow.h"
 #include "InputSequenceWindow.h"
+#include "GenerateSequenceWindow.h"
 
 SubsequenceWindow::SubsequenceWindow(QWidget *parent)
         : QWidget(parent)
@@ -43,6 +44,8 @@ void SubsequenceWindow::onGenerateSequenceButtonClicked()
     // Закрытие текущего окна
     this->close();
 
-    // Здесь можно добавить код для обработки нажатия кнопки "Сгенерировать последовательность"
-    label->setText("Вы выбрали генерацию последовательности.");
+    // Открытие окна для генерации последовательности
+    GenerateSequenceWindow *generateWindow = new GenerateSequenceWindow();
+    generateWindow->setAttribute(Qt::WA_DeleteOnClose); // Удалить окно при закрытии
+    generateWindow->show(); // Показать новое окно
 }
