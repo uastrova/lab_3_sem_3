@@ -165,6 +165,30 @@ GenerateSequenceWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.s
 .PHONY : GenerateSequenceWindow.cpp.s
 
+GeneratedSequenceWindow.obj: GeneratedSequenceWindow.cpp.obj
+.PHONY : GeneratedSequenceWindow.obj
+
+# target to build an object file
+GeneratedSequenceWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/GeneratedSequenceWindow.cpp.obj
+.PHONY : GeneratedSequenceWindow.cpp.obj
+
+GeneratedSequenceWindow.i: GeneratedSequenceWindow.cpp.i
+.PHONY : GeneratedSequenceWindow.i
+
+# target to preprocess a source file
+GeneratedSequenceWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/GeneratedSequenceWindow.cpp.i
+.PHONY : GeneratedSequenceWindow.cpp.i
+
+GeneratedSequenceWindow.s: GeneratedSequenceWindow.cpp.s
+.PHONY : GeneratedSequenceWindow.s
+
+# target to generate assembly for a file
+GeneratedSequenceWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab3.dir\build.make CMakeFiles/lab3.dir/GeneratedSequenceWindow.cpp.s
+.PHONY : GeneratedSequenceWindow.cpp.s
+
 InputSequenceWindow.obj: InputSequenceWindow.cpp.obj
 .PHONY : InputSequenceWindow.obj
 
@@ -346,6 +370,9 @@ help:
 	@echo ... GenerateSequenceWindow.obj
 	@echo ... GenerateSequenceWindow.i
 	@echo ... GenerateSequenceWindow.s
+	@echo ... GeneratedSequenceWindow.obj
+	@echo ... GeneratedSequenceWindow.i
+	@echo ... GeneratedSequenceWindow.s
 	@echo ... InputSequenceWindow.obj
 	@echo ... InputSequenceWindow.i
 	@echo ... InputSequenceWindow.s

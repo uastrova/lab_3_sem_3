@@ -8,6 +8,7 @@
 #include <QString>
 #include "MostFrequent.h"
 #include "Generator.h"
+#include "GeneratedSequenceWindow.h"
 
 GenerateSequenceWindow::GenerateSequenceWindow(QWidget *parent)
         : QWidget(parent)
@@ -59,6 +60,11 @@ void GenerateSequenceWindow::onConfirmButtonClicked()
 
     // Вызов функции с сгенерированной последовательностью и длинами
     FindingTheMostFrequentSubsequence(generatedSequence, lmin, lmax);
+
+    // Открытие окна с сгенерированной последовательностью
+    GeneratedSequenceWindow *generatedWindow = new GeneratedSequenceWindow(generatedSequence);
+    generatedWindow->setAttribute(Qt::WA_DeleteOnClose); // Удалить окно при закрытии
+    generatedWindow->show();
 
     // Закрытие окна после подтверждения
     this->close();

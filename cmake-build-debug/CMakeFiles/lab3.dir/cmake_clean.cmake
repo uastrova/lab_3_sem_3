@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "lab3_autogen"
   "CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.obj"
   "CMakeFiles/lab3.dir/GenerateSequenceWindow.cpp.obj.d"
+  "CMakeFiles/lab3.dir/GeneratedSequenceWindow.cpp.obj"
+  "CMakeFiles/lab3.dir/GeneratedSequenceWindow.cpp.obj.d"
   "CMakeFiles/lab3.dir/InputSequenceWindow.cpp.obj"
   "CMakeFiles/lab3.dir/InputSequenceWindow.cpp.obj.d"
   "CMakeFiles/lab3.dir/KnapsackItemsWindow.cpp.obj"

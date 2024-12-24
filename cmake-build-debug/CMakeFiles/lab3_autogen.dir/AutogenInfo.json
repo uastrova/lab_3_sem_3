@@ -309,6 +309,12 @@
 			null
 		],
 		[
+			"C:/c++Programs/lab_3_sem_3/GeneratedSequenceWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_GeneratedSequenceWindow.cpp",
+			null
+		],
+		[
 			"C:/c++Programs/lab_3_sem_3/Generator.h",
 			"MU",
 			"EWIEGA46WW/moc_Generator.cpp",
@@ -477,6 +483,7 @@
 	"SOURCES" : 
 	[
 		[ "C:/c++Programs/lab_3_sem_3/GenerateSequenceWindow.cpp", "MU", null ],
+		[ "C:/c++Programs/lab_3_sem_3/GeneratedSequenceWindow.cpp", "MU", null ],
 		[ "C:/c++Programs/lab_3_sem_3/InputSequenceWindow.cpp", "MU", null ],
 		[ "C:/c++Programs/lab_3_sem_3/KnapsackItemsWindow.cpp", "MU", null ],
 		[ "C:/c++Programs/lab_3_sem_3/KnapsackParametersWindow.cpp", "MU", null ],
